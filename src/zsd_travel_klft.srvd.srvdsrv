@@ -1,0 +1,15 @@
+@EndUserText.label: 'SD Travel'
+define service ZSD_TRAVEL_KLFT {
+  expose Z_C_TRAVEL_KLFT       as Travel;
+  expose Z_C_BOOKING_KLFT      as Booking;
+  expose Z_C_BOOKSUP_KLFT      as BookSup;
+  expose /DMO/I_Supplement     as Supplement;
+  expose /DMO/I_SupplementText as SuplementText;
+  expose /DMO/I_Customer       as Customer;
+  expose /DMO/I_Agency         as Agency;
+  expose /DMO/I_Carrier        as Airline;
+  expose /DMO/I_Connection     as FlightConnection;
+  expose /DMO/I_Flight         as Flight;
+  expose I_Currency            as Currency;
+  expose I_Country             as Country;
+}

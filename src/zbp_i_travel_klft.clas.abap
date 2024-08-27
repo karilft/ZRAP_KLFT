@@ -1,0 +1,7 @@
+CLASS zbp_i_travel_klft DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF z_i_travel_klft.
+ENDCLASS.
+
+
+
+CLASS zbp_i_travel_klft IMPLEMENTATION.
+ENDCLASS.
